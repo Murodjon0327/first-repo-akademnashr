@@ -1,8 +1,26 @@
-.site-header{
-  background-color: #fff;
-}
+
+ .body{
+   font-size: 16px;
+   line-height: 1.5;
+   font-family: "Roboto", "Ariel", sans-serif;
+   letter-spacing: 0.5px;
+ }
+
+
+ .site-header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #fff;
+  }
+
+  .site-header-right{
+    display: flex;
+    align-items: center;
+  }
 
 .sitenav-list{
+  display: flex;
  list-style: none;
 }
 
@@ -24,6 +42,9 @@
 }
 
 .hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252420;
   color: #fff;
 }
@@ -41,24 +62,33 @@
   font-style: 40px;
   line-height: 120%;
   letter-spacing: 0.5px;
+  font-family: "Roboto Condenset","Ariel",sans-serif;
   }
 
+  .hero-text{
+    width: 440px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+  }
 .hero-img{
   width: 510px;
   height: 510px;
 }
 
-.hero-text{
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-}
 
 .features-heading{
  width: 440px;
  font-size: 72px;
  line-height: 1.2;
+ font-family: "Roboto Condensed","Roboto" ,sans-serif;
  letter-spacing: 0.5px;
+}
+
+.features-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 
 }
 
@@ -75,6 +105,7 @@
 .feature-title{
  font-size: 24px;
  line-height: 1.2;
+ font-family: "Roboto Condensed","Roboto" ,sans-serif;
  letter-spacing: 0.5px;
 }
 .feature-info{
@@ -84,17 +115,21 @@
 }
 
  .promo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
  }
 
- promo-content{
+ .promo-content{
    width: 440px;
  }
 
  .promo-heading{
   font-size: 40px;
   line-height: 48px;
+  font-family:"Roboto Condensed","Roboto" ,sans-serif;
  }
 
   .promo-text{
@@ -116,8 +151,20 @@
       background-color: #f8f8f8;
     }
 
+    .sit-footer-top{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+
      .site-footer ul{
       list-style: none;
+     }
+
+     .site-footer-socials{
+      display: flex;
+      align-items: center;
      }
 
     .site-futer-divider{
@@ -125,8 +172,14 @@
       background-color: rgba(37, 36, 32, 0.5);
     }
 
+    .site-footer-bottom{
+      display: flex;
+
+    }
+
     .site-footer-links{
       width: 224px;
+      line-height: 19px;
     }
 
     .site-footer-links a{
